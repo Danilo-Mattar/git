@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos dee Caixa</title>
+    <style>
+        h1{
+            background-color: bisque;
+            width: 8em;
+            height: 7.5em;
+            color: brown;
+
+            border: 10px double brown; /* widht, style e color*/
+
+            padding: 10px 10px 10px 10px; /* top, right, bottom, left*/
+            /*padding: 10px; */
+            /* se todas as 4 medidas forem iguais pode escrever dessa forma*/
+            /*padding: 10px 20px;*/ 
+            /* dessa forma o o valor que estiver no 10px é aplica ao top e bottom e o 20px aplicado ao rigth e left*/
+
+            margin: 10px 10px 10px 10px; /* top, right, bottom, left*/
+            /*margin: 10px; */ 
+            /* se todas as 4 medidas forem iguais pode escrever dessa forma*/
+            /*margin: 10px 20px;*/ 
+            /* dessa forma o o valor que estiver no 10px é aplica ao top e bottom e o 20px aplicado ao rigth e left*/
+            /*margin: 10px auto 10px auto;*/ 
+            /* nesse modelo o que HTML faz é centralizar a ciaxa automaticamente com relação a largura*/
+
+            outline: 2px solid black; /* widht, style e color*/
+
+        }
+        
+        #ex{
+            text-align: center;
+            height: 30px;
+        }
+
+        a{
+            border-color: crimson;
+            border-width: 10px;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <h1><p id="ex">Exemplo de Box-level</p></h1>
+    <p>Paragrafos também são tipos de Box-level, mas os <a href="#"> links são do tipo de caixa inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>
+</html>

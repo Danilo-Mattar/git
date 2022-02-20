@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+
+            /* 
+            Medidas Absolutas: (pode haver distorções na apresentação em dispositivos difrentes)
+            cm, mm, in(polegada), px(pixel), pt(ponto), pc(paica)
+            
+            Medidas Relativas:
+            em (relativa ao M maiusculo de uma fonte),ex (relativo a aultura-x de uma fonte), rem (igual ao em, mas relativo ao rut), vw (lagura da view port/largura da tela, porcetagem da largura view port), vh (altura da view port) e % (porcentagem)
+
+            Melhores para usar em fonte são px e em
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            font-weight: bolder;
+            lighter normal bold bolder
+            font-style: unset;
+            text-decoration: underline;
+            */
+
+            /* shorthand font
+            Ordem dos seletores usados: font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 1em Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates, expedita recusandae similique possimus officiis soluta deserunt rem quo ullam libero distinctio! Nostrum voluptates ipsam delectus natus tenetur a eaque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, ad adipisci fugit tempora voluptates dolorum natus pariatur maiores. Enim neque corrupti aperiam deserunt optio quas, eius iure sed beatae atque.</p>
+    <h2>Subitítulo do Texto</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro, doloremque placeat vel sed, autem maiores est, sequi accusantium sit non veritatis eius fugiat nobis. Nemo, perferendis iure. Eveniet, est.</p>
+</body>
+</html>

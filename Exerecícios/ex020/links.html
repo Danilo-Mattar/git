@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        Significado da simbologia na CSS:
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = chindren (uma tag que faz parte de outra)
+
+
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: royalblue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(225, 65, 132);
+        }
+
+        a:active{
+            color: rgb(65, 225, 86);
+            text-decoration: none;
+        }
+
+        .especial:hover{
+            background-color: black;
+            color: white;
+            width: 185px;
+            text-decoration: none;
+
+        }
+
+        li::first-letter{
+            color: orange;
+        }
+
+        .especial:hover::before{
+            content: "»";
+            color: white;
+            font-weight: lighter;
+            text-decoration: none;
+        }
+
+        .especial:hover::after{
+            content: "<<";
+            color: white;
+            font-weight: lighter;
+            text-decoration: none;
+        }
+
+        li:hover::before{
+            content: '⇒ ';
+            color: rgb(225, 65, 132);
+        }
+
+        li:hover::after{
+            content: ' ⇐';
+            color: rgb(225, 65, 132);
+        }
+
+        iframe{
+            height: 300px;
+            width: 500px;
+        }
+    </style>
+    <p>aaaaaaaaaaaaaaaaaaaaa</p>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <a href="https://gustavoguanabara.github.io"><li>Depositório do Github</li></a>
+        <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo"><li class="especial">Canaal do Youtube</li></a>
+        <a href="https://www.cursoemvideo.com/"><li>Site do Cursoemvídeo</li></a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mEcrzs2O_t8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UfjjH2vAxRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </ul>
+</body>
+</html>
