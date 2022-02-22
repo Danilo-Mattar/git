@@ -68,7 +68,8 @@ a#log-p{
         font-size: 180%;
     }
     header > nav{
-        width: 15%;
+        width: 37%;
+        
     }
     header nav a{
         padding-left: 4.5%;
@@ -76,23 +77,22 @@ a#log-p{
     }
     header button{
         display: block;
-        min-width: 150px;
-        margin-left: 20%;
-        margin-right: 20px;  
+        min-width: 220px;
+        height: 25px;
+        margin: auto;  
     }
     header button input{
-        min-width: 40px;
+        min-width: 60px;
     }
     header p{
-        margin-top: 12px;
+        margin-top: 13px;
         width: 100%;
     }
     a#log{
         display: none;
     }
     a#log-p{
-        box-align: 10px;
-        padding: ;
-        display: contents;
+        margin-left: 37%;
+        display: inline-block;
     }
 }
