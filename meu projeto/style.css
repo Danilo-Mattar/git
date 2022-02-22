@@ -28,22 +28,71 @@ header > nav{
 }
 header nav a{
     display: inline-block;
-    padding: 0% 0% 0% 6%;
-    width: 25%;
+    padding-left: 6.5%;
+    font-size: 110%;
 }
 header button{
-    width: 18%;
-    margin-left: 35%;
+    width: 15%;
+    margin-left: 38%;
+}
+header button::after{
+    content:'\1F50E';
+}
+header button input{
+    width: 80%;
 }
 header p{
     margin-top: 12px;
     display:block;
     text-align: center;
-    padding: 10px 0px 17px 0px;
+    padding: 0.7% 10px 1.4% 10px;
+    width: 100%;
 }
 a#log{
-    margin-left: 3%;
+    margin-left: 4%;
+    font-size: 110%;
+    width: 10%;
+}
+a#log-p{
+    display: none;
 }
 
-/*abaixo de 900w */
-@media (max-width:)
+/*abaixo de 1055w */
+@media (max-width:1055px){
+    header h1{
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+        padding-left: 2%;
+        font-size: 180%;
+    }
+    header > nav{
+        width: 15%;
+    }
+    header nav a{
+        padding-left: 4.5%;
+        font-size: 110%;
+    }
+    header button{
+        display: block;
+        min-width: 150px;
+        margin-left: 20%;
+        margin-right: 20px;  
+    }
+    header button input{
+        min-width: 40px;
+    }
+    header p{
+        margin-top: 12px;
+        width: 100%;
+    }
+    a#log{
+        display: none;
+    }
+    a#log-p{
+        box-align: 10px;
+        padding: ;
+        display: contents;
+    }
+}
