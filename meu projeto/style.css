@@ -10,8 +10,7 @@ a{
 }
 header {
     background-color: blue;
-    margin: -10px;
-    padding: 20px 0px 10px 0px;
+    padding: 20px 28px 10px 0px;
 }
 header h1{
     display: inline-block;
@@ -49,7 +48,7 @@ header p{
     width: 100%;
 }
 a#log{
-    margin-left: 4%;
+    margin-left: 5%;
     font-size: 110%;
     width: 10%;
 }
@@ -59,6 +58,9 @@ a#log-p{
 
 /*abaixo de 1055w */
 @media (max-width:1055px){
+    header{
+        height: 110px;
+    }
     header h1{
         margin-top: 6px;
         margin-bottom: 6px;
@@ -79,20 +81,24 @@ a#log-p{
         display: block;
         min-width: 220px;
         height: 25px;
-        margin: auto;  
+        margin: auto; 
+        margin-top: 5px;
+        margin-bottom: -2px; 
     }
     header button input{
         min-width: 60px;
+        padding: 0px 0px 0px 20px;
     }
     header p{
         margin-top: 13px;
         width: 100%;
+        font-size: 98%;
     }
     a#log{
         display: none;
     }
     a#log-p{
-        margin-left: 37%;
+        margin-left: 36.5%;
         display: inline-block;
     }
 }
