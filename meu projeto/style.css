@@ -55,9 +55,17 @@ a#log{
 a#log-p{
     display: none;
 }
-
+div#menu{
+    display: none;
+}
+header div#p{
+    display: none;
+}
+header nav#nav-p{
+    display: none;
+}
 /*abaixo de 1055w */
-@media (max-width:1055px){
+@media (max-width:1100px){
     header{
         height: 110px;
     }
@@ -101,4 +109,54 @@ a#log-p{
         margin-left: 36.5%;
         display: inline-block;
     }
+}
+/*abaixo de 600w */
+@media (max-width:600px){
+    header div#menu{
+        display: block;
+        text-align: right;
+        margin-top: -20px;
+        size: 200px;
+    }
+    header nav{
+        display: none;
+    }
+    header button {
+        display: none;
+    }
+    a#log-p{
+        display: block;
+        text-align: right;
+        margin-top: -32px;
+        margin-right: 36px;
+        padding-top: 4px;
+        font-size: 1.05em;
+    }
+    header div nav#nav-p{
+        display: none;
+    }
+    header nav#nav-p{
+        display: block;
+        width: 80px;
+        height: 70%;
+        text-align: center;
+        background-color: gray;
+        border-radius: 2px;
+        padding-right: 0px;
+    }
+    header nav#nav-p ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+    header nav#nav-p ul li{
+        display: block;
+        padding: 2px;
+        transition-duration: all 10s;
+        border-bottom: 1px solid black;        
+    }
+    div#menu:hover nav#nav-p{
+        display: inline-block;
+        margin-top: 25px;
+    }
+    
 }
