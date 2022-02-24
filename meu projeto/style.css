@@ -156,7 +156,13 @@ header nav#nav-p{
     }
     div#menu:hover nav#nav-p{
         display: inline-block;
-        margin-top: 25px;
+        margin-left: 68%;
+        min-width: 30%;
+        padding: 1%;
+        text-align: center;
+        margin-top: 4px;
+        background-color: #f2fafcf3;
     }
+    */
     
 }
