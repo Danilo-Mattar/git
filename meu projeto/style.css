@@ -157,6 +157,7 @@ header p#para{
         transition-duration: all 10s;
         border-bottom: 1px solid black;        
     }
+    /*
     div#menu:hover nav#nav-p{
         display: inline-block;
         margin-left: 68%;
@@ -166,6 +167,7 @@ header p#para{
         margin-top: 4px;
         background-color: #f2fafcf3;
     }
+    */
     header  p{
         display: none;
     }
@@ -176,5 +178,17 @@ header p#para{
             min-width: 17%;
             font-size: 29%;
             margin-left: 0px;
-        }    
+        } 
+        div#menu:hover nav#nav-p{
+            display: block;
+            margin-bottom: 0px;
+            margin-top: -70px;
+            min-width: 50%;
+            min-height: 100%;
+            padding: 50% 0%;
+            text-align: center;
+            background-color: #f2fafcf3;
+            border-radius: 0px;
+        }
 }
+
