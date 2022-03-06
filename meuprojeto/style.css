@@ -184,6 +184,16 @@ header p#para{
             font-size: 29%;
             margin-left: 0px;
         } 
-        
+        div#menu:hover nav#nav-p{
+            display: block;
+            margin-bottom: 0px;
+            margin-top: -70px;
+            min-width: 100%;
+            min-height: 100%;
+            padding: 50% 0%;
+            text-align: center;
+            background-color: #f2fafcf3;
+            border-radius: 0px;
+        }
 }
 
