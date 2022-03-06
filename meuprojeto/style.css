@@ -188,8 +188,8 @@ header p#para{
             display: block;
             margin-bottom: 0px;
             margin-top: -70px;
-            min-width: 100%;
-            min-height: 100%;
+            min-width: 50%;
+            min-height: 670px;
             padding: 50% 0%;
             text-align: center;
             background-color: #f2fafcf3;
