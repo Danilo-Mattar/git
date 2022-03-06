@@ -188,7 +188,7 @@ header p#para{
             display: block;
             margin-bottom: 0px;
             margin-top: -70px;
-            min-width: 50%;
+            min-width: 100%;
             min-height: 100%;
             padding: 50% 0%;
             text-align: center;
