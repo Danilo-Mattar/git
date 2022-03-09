@@ -134,9 +134,20 @@ main{
         margin-left: 36.5%;
         display: inline-block;
     }
+    main{
+        position: absolute;
+        background-color: yellow;
+        min-width: 100%;
+        min-height: 100%;
+        margin-left: 0%;
+        color: red;
+    }
 }
 /*abaixo de 600w */
 @media (max-width:594px){
+    h1{
+        display: block;
+    }
     header div{
         size: 0px;
     }
@@ -183,8 +194,7 @@ main{
     header nav#nav-p ul li{
         display: block;
         padding: 2px;
-        transition-duration: all 10s;
-        border-bottom: 1px solid black;        
+        transition-duration: 10s;       
     }
     /*
     div#menu:hover nav#nav-p{
@@ -210,17 +220,22 @@ main{
             margin-left: 0px;
         } 
         div#menu:hover nav#nav-p{
-            position: absolute;
+            position: fixed;
             display: block;
             margin-bottom: 0px;
             margin-top: -60px;
-            min-width: 50%;
+            min-width: 60%;
             min-height: 670px;
             padding: 50% 0%;
             text-align: center;
             background-color: #f2fafcf3;
             border-radius: 0px;
             left: 0%;
+            right: 50%;
+            z-index: 1;
+        }
+        div#menu:hover h1{
+            display: content;
         }
 }
 
