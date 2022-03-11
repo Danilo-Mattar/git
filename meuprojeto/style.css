@@ -218,7 +218,8 @@ main{
             min-width: 17%;
             font-size: 42%;
             margin-left: 0px;
-        } 
+        }
+        /*vai presisar de JS aqui*/ 
         div#menu:hover nav#nav-p{
             position: fixed;
             display: block;
