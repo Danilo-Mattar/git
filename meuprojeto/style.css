@@ -83,12 +83,16 @@ header p#para{
 main{
     position: absolute;
     background-color: yellow;
-    min-width: 76%;
+    min-width: 90%;
     min-height: 100%;
-    margin-left: 12%;
+    margin-left: 5%;
     color: red;
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    border-radius: 2%;
 }
+
 /*abaixo de 1055w */
 @media (max-width:1100px){
     header{
@@ -134,14 +138,8 @@ main{
         margin-left: 36.5%;
         display: inline-block;
     }
-    main{
-        position: absolute;
-        background-color: yellow;
-        min-width: 100%;
-        min-height: 100%;
-        margin-left: 0%;
-        color: red;
-    }
+    
+    
 }
 /*abaixo de 600w */
 @media (max-width:594px){
