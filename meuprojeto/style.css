@@ -113,14 +113,13 @@ main button#but_main{
 main div.quadrado{
     position: relative;
     display: block;
-    border: 2px solid black;
     border-radius: 10px;
     background-color: lightgray;
     width: 95%;
     height: 150px;
-    left: 2.5%;
-    margin-top: 1%;
-    
+    left: 2%;
+    margin-top: 2%;
+    box-shadow: 1px 0px 4px;
 }
 div#img1{
     background-image: url("");
@@ -130,6 +129,9 @@ div#img3{
 }
 div#img3{
     background-image: url("");
+}
+main div p{
+    padding-top: 70px;
 }
 footer{
     background-color: red;
