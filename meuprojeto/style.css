@@ -125,6 +125,7 @@ main div.quadrado{
 /* a imagem tem altura de 150px e largura relativa*/
 div#img1{
     background-image: url("");
+    margin-top: 3%;
 }
 div#img3{
     background-image: url("");
@@ -134,14 +135,27 @@ div#img3{
 }
 div#img4{
     background-image: url("");
-    margin-bottom: 4%;
+    margin-bottom: 4.5%;
 }
 main div p{
     padding-top: 67px;
     font-size: 130%;
+    font-weight: bolder;
 }
-main p#titulo{
-    /*!!!!!*/
+main h2.titulo{
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    font-size: 135%;
+}
+main h2#mais{
+    background-color: darkblue;
+    border-radius: 5px;
+    max-width: 246px;
+    margin: auto;
+    padding: 1%;
+    border: none;
+    box-shadow: 1px 0px 4px;
+    font-size: 120%;
 }
 footer{
     background-color: lightgray;
@@ -154,6 +168,15 @@ footer br{
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+}
+footer ul li{
+    display: inline-block;
+}
+footer li.lititulo{
+    columns: 3;
+}
+footer ul.abc{
+    columns: 3;
 }
 /*abaixo de 1055w */
 @media (max-width:1100px){
@@ -205,12 +228,14 @@ footer br{
     }
     main button#but_main{
         margin-top: 2.5%;
+        margin-bottom: 5.5%;
         display: inline-block;
         min-width: 94%;
         padding: 1%;
         background-color: lightgray;
         border-radius: 4px;
         border: none;
+        min-height: 32px;
     }
     main input#but_main{
         min-width: 90%;
@@ -219,6 +244,7 @@ footer br{
         margin-left: -1%;
         background-color: gainsboro;
         border: none;
+        min-height: 17px;
     }
     main button#but_main::after{
         content:'\1F50E';
