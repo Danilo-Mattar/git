@@ -169,14 +169,15 @@ footer br{
     margin-left: -10px;
     margin-right: -10px;
 }
-footer ul li{
+footer ul{
     display: inline-block;
+    padding: 1%;
 }
 footer li.lititulo{
     columns: 3;
 }
-footer ul.abc{
-    columns: 3;
+footer li{
+    list-style: none;
 }
 /*abaixo de 1055w */
 @media (max-width:1100px){
