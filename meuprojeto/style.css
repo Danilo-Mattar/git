@@ -104,6 +104,7 @@ main{
     text-align: center;
     margin-top: 5%;
     margin-bottom: 10px;
+    padding: 3%;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 }
@@ -121,6 +122,7 @@ main div.quadrado{
     margin-top: 2%;
     box-shadow: 1px 0px 4px;
 }
+/* a imagem tem altura de 150px e largura relativa*/
 div#img1{
     background-image: url("");
 }
@@ -130,12 +132,28 @@ div#img3{
 div#img3{
     background-image: url("");
 }
+div#img4{
+    background-image: url("");
+    margin-bottom: 4%;
+}
 main div p{
-    padding-top: 70px;
+    padding-top: 67px;
+    font-size: 130%;
+}
+main p#titulo{
+    /*!!!!!*/
 }
 footer{
-    background-color: red;
+    background-color: lightgray;
     margin-top: 5%;
+    padding: 10px;
+}
+footer br{
+    background-color: darkgray;
+    padding: 5px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 /*abaixo de 1055w */
 @media (max-width:1100px){
