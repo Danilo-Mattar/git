@@ -39,12 +39,12 @@ header h1{
 }
 header > nav{
     display: inline-block;
-    width: 20%;
+    width: 35%;
 }
 header nav a{
     display: inline-block;
-    padding-left: 6.5%;
-    font-size: 110%;
+    padding-left: 2.75%;
+    font-size: 130%;
 }
 header button{
     display: inline-block;
@@ -74,8 +74,8 @@ header p{
     width: 100%;
 }
 a#log{
-    margin-left: 62%;
-    font-size: 110%;
+    margin-left: 46%;
+    font-size: 130%;
     width: 10%;
 }
 a#log-p{
@@ -132,7 +132,7 @@ footer{
     }
     header nav a{
         padding-left: 4.5%;
-        font-size: 110%;
+        font-size: 119%;
     }
     /* configuração para o botão no header
     header button{
@@ -156,8 +156,9 @@ footer{
         display: none;
     }
     a#log-p{
-        margin-left: 37.2%;
+        margin-left: 36%;
         display: inline-block;
+        font-size: 119%;
     }
     main button#but_main{
         margin-top: 2.5%;
@@ -186,6 +187,9 @@ footer{
 }
 /*abaixo de 600w */
 @media (max-width:610px){
+    header{
+        height: 100%;
+    }
     h1{
         display: block;
     }
@@ -249,17 +253,8 @@ footer{
     }
     */
     header  p{
-        display: none;
+
     }
-        header  p#para{
-            position: absolute;
-            display: block;
-            margin-top: 0px;
-            max-width: 20%;
-            min-width: 17%;
-            font-size: 42%;
-            margin-left: 0px;
-        }
         /*vai presisar de JS aqui*/ 
         div#menu:hover nav#nav-p{
             position: fixed;
