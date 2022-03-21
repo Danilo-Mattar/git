@@ -160,7 +160,9 @@ main h2#mais{
 footer{
     background-color: lightgray;
     margin-top: 5%;
-    padding: 10px;
+    display: flex;
+    justify-content: end;
+    
 }
 footer br{
     background-color: darkgray;
@@ -170,11 +172,12 @@ footer br{
     margin-right: -10px;
 }
 footer ul{
-    display: inline-block;
+    width: 22%;
     padding: 1%;
+    right: 20%;
 }
 footer li.lititulo{
-    columns: 3;
+    
 }
 footer li{
     list-style: none;
