@@ -196,8 +196,23 @@ footer li.linormal{
 div#rodape{
     display: block;
     width: 100%;
-    height: 40px;
+    height: 95px;
     background-color: var(--corp);
+    
+}
+div.rodapet p{
+    color: #ffffff;
+    margin: 2% 0px;
+}
+div#rodadados{
+    min-width: 50%;
+    display: inline-block;
+    
+}
+div#rodaredes{
+    display: inline-block;
+    margin: auto; 
+    min-width: 47%;   
 }
 /*abaixo de 1055w */
 @media (max-width:1100px){
