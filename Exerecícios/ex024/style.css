@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    padding: 4%;
+}
+h1{
+    position: absolute;
+    color: white;
+    left: 40%;
+}
+header p {
+    color: white;
+    margin: auto;
+}
