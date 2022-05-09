@@ -7,7 +7,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    text-decoration: none;
 }
 :root{
     --fonte1: Verdana, 'Geneva', Tahoma, sans-serif;
@@ -15,7 +14,7 @@
     --fonte3: 'Sriracha', 'cursive';
 }
 body{
-    min-width: 98vh;
+    min-width: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
 }
@@ -38,6 +37,7 @@ header p {
 a{
     color: white;
     font-weight: bolder;
+    text-decoration: none;
 }
 section{
     height: 100vh;
@@ -63,6 +63,15 @@ section.imagem > p{
     color: #ffff;
     position: absolute;
 }
+section.normal{
+    margin-block-end: 100vh;
+}
 section p{
    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    box-align: end;
 }
