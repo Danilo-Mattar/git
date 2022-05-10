@@ -7,13 +7,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 :root{
     --fonte1: Verdana, 'Geneva', Tahoma, sans-serif;
     --fonte2: 'Passion One', 'cursive';
     --fonte3: 'Sriracha', 'cursive';
 }
-body{
+html,body{
     min-width: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
@@ -24,13 +25,12 @@ header{
     color: white;
     text-align: center;
 }
-h1{
+header > h1{
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 8vw;
+    font-size: 10vw;
 }
-header p {
-    text-align: center;
+header > p {
     color: white;
     margin: auto;
 }
@@ -40,12 +40,11 @@ a{
     text-decoration: none;
 }
 section{
-    height: 100vh;
     font-family: var(--fonte3);
     font-size: 3.5vw;
-    padding-left: 30px;
-    padding-top: 8vh;
-    padding-bottom: 20vh;
+    padding-left: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
 }
 section#imagem1{
@@ -62,18 +61,12 @@ section#imagem2{
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.285);
     color: #ffff;
-    position: absolute;
-    max-width: 900px;
-}
-section.normal{
-    margin-block-end: 100vh;
-}
-section p{
-   
+    display: inline-block;
 }
 footer{
     background-color: black;
     text-align: center;
     color: white;
     box-align: end;
+    padding: 1.5vh;
 }
