@@ -44,8 +44,9 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
     padding-left: 30px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 20vh;
+    line-height: 2em;
 }
 section#imagem1{
     background-image: url(imagens/background001.jpg);
@@ -62,6 +63,7 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.285);
     color: #ffff;
     position: absolute;
+    max-width: 900px;
 }
 section.normal{
     margin-block-end: 100vh;
