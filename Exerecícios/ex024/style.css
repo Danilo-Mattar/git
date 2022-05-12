@@ -52,16 +52,21 @@ section#imagem1{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center right;
 }
 section#imagem2{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.285);
     color: #ffff;
     display: inline-block;
+}
+section.imagem {
+    box-shadow: inset /*significa par dentro*/ 6px 6px 13px 0px black;
 }
 footer{
     background-color: black;
