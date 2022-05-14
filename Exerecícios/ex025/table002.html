@@ -1,12 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+      table{
+            width: 400px;
+            border-collapse: collapse;
+            height: 400px;
+        }
+        th{
+            max-width: 100px;
+        }
+        tr{
+            border: 1px solid black;
+        }
+        td, th{
+           border: 1px solid black;
+           padding: 10px;
+           text-align: center; /*  alinhamento horizontal*/
+           vertical-align: middle;/*  alinhamento vertical*/
+        }  
+        thead, tfoot{
+            background-color: black;
+            color: white;
+        }
+        td.nu{
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+            ANATOMIA PARA TABELAS GRANDES
+            TABLE (tag){
+                THEAD(tag header da tabeça *OPCIONAL){
+                    Pode ter: TR, TD, TH
+                }
+                TBODY(tag do body da tabeça){
+                    Pode ter: TR, TD, TH
+                }
+                TFOOT(tag do footer da tabeça *OPCIONAL){
+                    Pode ter: TR, TD, TH
+                }
+            }
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade federativa</th>
+                <th>População (2010)</th>
+                <th>População (2021)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td class="nu">41.262.199</td>
+                <td class="nu">46.649.132</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td class="nu">19.597.330</td>
+                <td class="nu">21.411.923</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td class="nu">15.989.929</td>
+                <td class="nu">17.463.349</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="nu">14.016.906	</td>
+                <td class="nu">14.985.284</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th id="long">TOTAL DA POPULÇÃO</th>
+                <th></th>
+                <th class="nu">XXXXXXX</th>
+                <th class="nu">XXXXXXXX</th>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
