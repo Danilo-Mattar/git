@@ -11,9 +11,6 @@
             border-collapse: collapse;
             height: 400px;
         }
-        th{
-            width: 130px;
-        }
         tr{
             border: 1px solid black;
         }
@@ -30,13 +27,14 @@
         tabela simple
         HIERARQUIA DE TABELAS:
         - TABLE = tabela
+            -CAPTION = titulo da tabela (caption) 
             - TABLE ROW = linha da tabela (tr)
                 - TABLE HEADER = cabeçalho da tabela (th)
                 - TABLE DATA = dado da tabela (td)
     -->
 
     <table>
-        <th>Dados</th>
+        <caption>Dados</caption> <!-- titulo da tabela-->
         <tr> <!-- primera linha-->
             <td>a1</td> <!-- primeiro dado da primera linha-->
             <td>a2</td> <!-- segundo dado da primera linha-->

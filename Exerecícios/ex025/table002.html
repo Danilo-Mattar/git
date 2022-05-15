@@ -11,6 +11,10 @@
             border-collapse: collapse;
             height: 400px;
         }
+        caption{
+            font-weight: bolder;
+            font-size: 2.5em;
+        }
         th{
             max-width: 100px;
         }
@@ -27,6 +31,9 @@
             background-color: black;
             color: white;
         }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
         td.nu{
             text-align: right;
         }
@@ -37,6 +44,7 @@
     <!--
             ANATOMIA PARA TABELAS GRANDES
             TABLE (tag){
+                CAPTION = titulo da tabela (caption)
                 THEAD(tag header da tabeça *OPCIONAL){
                     Pode ter: TR, TD, TH
                 }
@@ -50,11 +58,12 @@
     -->
     <table>
         <thead>
+            <caption>Dados</caption>
             <tr>
-                <th>Posição</th>
-                <th>Unidade federativa</th>
-                <th>População (2010)</th>
-                <th>População (2021)</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População (2010)</th>
+                <th scope="col">População (2021)</th>
             </tr>
         </thead>
         <tbody>
@@ -82,13 +91,43 @@
                 <td class="nu">14.016.906	</td>
                 <td class="nu">14.985.284</td>
             </tr>
+            <tr>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>14</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th id="long">TOTAL DA POPULÇÃO</th>
-                <th></th>
-                <th class="nu">XXXXXXX</th>
-                <th class="nu">XXXXXXXX</th>
+                <th scope="row">TOTAL DA POPULÇÃO</th>
+                <td></td>
+                <td class="nu">XXXXXXX</td>
+                <td class="nu">XXXXXXXX</td>
             </tr>
         </tfoot>
     </table>
