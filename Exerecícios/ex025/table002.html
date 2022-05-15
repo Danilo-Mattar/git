@@ -10,6 +10,7 @@
             width: 400px;
             border-collapse: collapse;
             height: 400px;
+            position: relative;
         }
         caption{
             font-weight: bolder;
@@ -30,6 +31,11 @@
         thead, tfoot{
             background-color: black;
             color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: black;
         }
         tbody > tr:nth-child(2n){
             background-color: lightgray;
@@ -57,8 +63,8 @@
             }
     -->
     <table>
+        <caption>Dados</caption>
         <thead>
-            <caption>Dados</caption>
             <tr>
                 <th scope="col">Posição</th>
                 <th scope="col">Unidade federativa</th>
@@ -121,11 +127,40 @@
             <tr>
                 <td>14</td>
             </tr>
+            <tr>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>14</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th scope="row">TOTAL DA POPULÇÃO</th>
-                <td></td>
+                <th scope="row" colspan="2">TOTAL DA POPULÇÃO</th>
                 <td class="nu">XXXXXXX</td>
                 <td class="nu">XXXXXXXX</td>
             </tr>
