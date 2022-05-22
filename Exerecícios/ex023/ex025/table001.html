@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira tabela</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            height: 400px;
+        }
+        tr{
+            border: 1px solid black;
+        }
+        td{
+           border: 1px solid black;
+           padding: 10px;
+           text-align: center; /*  alinhamento horizontal*/
+           vertical-align: middle;/*  alinhamento vertical*/
+        }
+    </style>
+</head>
+<body>
+    <!--
+        tabela simple
+        HIERARQUIA DE TABELAS:
+        - TABLE = tabela
+            -CAPTION = titulo da tabela (caption) 
+            - TABLE ROW = linha da tabela (tr)
+                - TABLE HEADER = cabeçalho da tabela (th)
+                - TABLE DATA = dado da tabela (td)
+    -->
+
+    <table>
+        <caption>Dados</caption> <!-- titulo da tabela-->
+        <tr> <!-- primera linha-->
+            <td>a1</td> <!-- primeiro dado da primera linha-->
+            <td>a2</td> <!-- segundo dado da primera linha-->
+            <td>a3</td> <!-- terceiro dado da primera linha-->
+        </tr>
+        <tr><!-- segunda linha-->
+            <td>b1</td> <!-- primeiro dado da segunda linha-->
+            <td>b2</td> <!-- segundo dado da segunda linha-->
+            <td>b3</td> <!-- terceiro dado da segunda linha-->
+        </tr>
+        <tr><!-- terceira linha-->
+            <td>c1</td> <!-- primeiro dado da terceira linha-->
+            <td>c2</td> <!-- segundo dado da terceira linha-->
+            <td>c3</td> <!-- terceiro dado da terceira linha-->
+        </tr>
+        <tr><!-- quarta linha-->
+            <td>d1</td> <!-- primeiro dado da quarta linha-->
+            <td>d2</td> <!-- segundo dado da quarta linha-->
+            <td>d3</td> <!-- terceiro dado da quarta linha-->
+        </tr>
+    </table>
+</body>
+</html>
